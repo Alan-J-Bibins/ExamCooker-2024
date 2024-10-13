@@ -41,6 +41,8 @@ function NothingViewedOrFav({ sectionName }: { sectionName: string }) {
                         md:justify-center w-full md:w-fit items-center">
                         <Link href={'/past_papers'} className="bg-inherit hover:bg-white/10 ">Papers</Link>
                         <p>|</p>
+                        <Link href={'/syllabus'} className="bg-inherit hover:bg-white/10">Syllabus</Link>
+                        <p>|</p>
                         <Link href={'/notes'} className="bg-inherit hover:bg-white/10">Notes</Link>
                         <p>|</p>
                         <Link href={'/forum'} className="bg-inherit hover:bg-white/10">Forum</Link>
